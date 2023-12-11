@@ -1,0 +1,34 @@
+{
+  "servers": [
+    {
+      "hosting": "Amazon Web Services",
+      "description": "Kubernetes load balancing",
+      "pricePerHour": 100.0,
+      "os": "Linux"
+    },
+    {
+      "hosting": "Microsoft Azure",
+      "description": "Git instance",
+      "pricePerHour": 140.5,
+      "os": "Windows Server"
+    },
+    {
+      "hosting": "Hetzner",
+      "description": "Kubernetes node 1",
+      "pricePerHour": 95.2,
+      "os": "Linux"
+    },
+    {
+      "hosting": "(Hosted Locally)",
+      "description": "HTTP Server",
+      "pricePerHour": 20,
+      "os": "FreeBSD"
+    },
+    {
+      "hosting": "Amazon Web Services",
+      "description": "Backend",
+      "pricePerHour": 94.3,
+      "os": "Linux"
+    }
+  ]
+}

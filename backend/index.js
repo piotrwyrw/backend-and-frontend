@@ -20,7 +20,7 @@ app.use(json())
 // The following registers a mapping for a 'GET' request, which should return an array
 // of all the servers in the data JSON
 app.get('/all', (req, res) => {
-        return data['servers']
+        res.json(data['servers'])
 })
 
 // The following is also a GET mapping, but this one contains a URL parameter (`:system`)

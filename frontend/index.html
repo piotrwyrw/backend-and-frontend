@@ -5,9 +5,13 @@
     <title>Sample Frontend</title>
     <script src="frontend.js">
     </script>
+    <style>
+        bold {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-
 <button onclick="allServers()">
     Get All Servers
 </button>
@@ -16,6 +20,36 @@
 </div>
 
 <br>
+<hr>
+<br>
+
+<label for="os">Operating System</label>
+<input type="text" id="os">
+<br>
+<br>
+<button onclick="serverWithOS()">
+    Find Servers with Operating System
+</button>
+
+<div id="listServersWithOS">
+</div>
+
+<hr>
+<br>
+
+<label for="price">Max Price Per Hour</label>
+<input type="number" id="price">
+<br>
+<br>
+<button onclick="serverWithPrice()">
+    Find Servers with max. Price
+</button>
+
+<div id="listServersWithPrice">
+</div>
+
+<br>
+<hr>
 <br>
 
 </body>
